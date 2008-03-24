@@ -12,7 +12,7 @@ Package reads in WIN format data from Japan and converts to R
 \tabular{ll}{
 Package: \tab WINRPACK\cr
 Type: \tab Package\cr
-Version: \tab 1.0.2\cr
+Version: \tab 1.0-3\cr
 Date: \tab 2008-03-24\cr
 License: \tab GPL\cr
 }

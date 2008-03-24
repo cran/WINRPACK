@@ -13,10 +13,23 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-/* #include <netinet/in.h> */
-       
+ 
+
+#include <arpa/inet.h> 
+#include <netinet/in.h> 
+
+
+
+/*
+     Some  systems  require  the  inclusion   of   <netinet/in.h>   instead   of
+       <arpa/inet.h>.
+
+
 unsigned long int ntohl(unsigned long int netlong);
 unsigned short int ntohs(unsigned short int netshort);
+
+*/
+    
 
 /* #include <machine/endian.h> */
 
@@ -47,11 +60,11 @@ int REMALLOC = 0;
 int time_cmp(int *t1,int *t2);
 unsigned int read_data(unsigned char **ptr,FILE *fp);
 int read_one_sec(unsigned char *ptr,int  sys_ch, int *abuf);
-int bcd_dec(int *dest,char *sour);
+int bcd_dec(int *dest, unsigned   char *sour);
 void adj_time(int *tm);
 
 
-
+ 
  int stfind(int chno,char  kstnm[5], char kcmp[5] ,float  *cmpaz,
           float  *cmpinc,float  *stla,float  *stlo,float  *stel,
 	    float  *sense, char *infile);
@@ -279,7 +292,7 @@ void adj_time(int *tm);
       n[loop] = npts;
       fclose(f_main);
       
-      mainbuf = (char *)0;   
+      mainbuf = (unsigned char *)0;   
       free(mainbuf);   
     }
 
@@ -383,7 +396,7 @@ void adj_time(int *tm);
 
   fclose(f_main);
 
-    mainbuf = (char *)0;    
+    mainbuf = (unsigned char *)0;    
    free(mainbuf);  
 
 
@@ -498,7 +511,7 @@ void adj_time(int *tm)
     }
 }
 /**************************************************************/
-/* FUNC DEF */ int bcd_dec(int *dest,char *sour)
+/* FUNC DEF */ int bcd_dec(int *dest, unsigned  char *sour)
 {
   int cntr;
   for(cntr=0;cntr<6;cntr++)
