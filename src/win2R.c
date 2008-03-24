@@ -14,9 +14,42 @@
 #include <ctype.h>
 
  
+#ifdef Win32
+#include <winsock2.h>
+#include <io.h>
+#else
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#endif
+
+
+
+
+/*
+#ifdef HAVE_BSD_NETWORKING
+#  include <netdb.h>
+#  include <sys/socket.h>
+#  include <netinet/in.h>
+#endif
+
+
+#ifdef HAVE_NETINET_IN_H
+#ifdef _WIN32
+# include <winsock2.h>
+#else
+# include <sys/socket.h>
+# include <netinet/in.h>
+# include <arpa/inet.h>
+#endif
 
 #include <arpa/inet.h> 
 #include <netinet/in.h> 
+
+
+*/
+
+
 
 
 
