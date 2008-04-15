@@ -5,9 +5,6 @@
   Read one WIN pickfile
 }
 \usage{
-
-
-
 get1WINPICK(fn)
 }
 \arguments{
@@ -60,10 +57,7 @@ get1WINPICK(fn)
   \item{PICKER}{name of picker}
 
 }
-\references{}
+
 \author{Jonathan M. Lees<jonathan.lees@unc.edu>}
-\note{
-}
-\seealso{}
-\examples{}
+
 \keyword{misc}

@@ -3,7 +3,7 @@
 \alias{WINRPACK}
 \docType{package}
 \title{
-Read and convert WIN format (Japanese Seismic Data) to R
+Read and convert WIN format to R
 }
 \description{
 Package reads in WIN format data from Japan and converts to R
@@ -12,8 +12,8 @@ Package reads in WIN format data from Japan and converts to R
 \tabular{ll}{
 Package: \tab WINRPACK\cr
 Type: \tab Package\cr
-Version: \tab 1.0-4\cr
-Date: \tab 2008-03-24\cr
+Version: \tab 1.0-6\cr
+Date: \tab 2008-04-15\cr
 License: \tab GPL\cr
 }
 
@@ -24,14 +24,8 @@ Jonathan M. Lees<jonathan.lees\@unc.edu>
 Maintainer:Jonathan M. Lees<jonathan.lees\@unc.edu>
 
 }
-\references{
-
-}
 
 \keyword{ package }
 \seealso{
 RSEIS, Rsac
-}
-\examples{
-
 }

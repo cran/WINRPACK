@@ -12,14 +12,8 @@ readwinch(fn, wigdir = "/home/lees/Site/Fuji/WIG")
   \item{wigdir}{name of directory where waveforms reside}
 }
 
-\value{
- 
-  
-}
-\references{}
+
+
 \author{Jonathan M. Lees<jonathan.lees@unc.edu>}
-\note{
-}
-\seealso{}
-\examples{}
+
 \keyword{misc}

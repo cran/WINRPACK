@@ -13,16 +13,12 @@ XWINdata(fn, stasel = stasel, PLOT = FALSE)
   \item{PLOT}{logical wheaterh to plot}
  
 }
-\details{
-}
+
 \value{
  List of stuff
   
 }
-\references{}
+
 \author{Jonathan M. Lees<jonathan.lees@unc.edu>}
-\note{
-}
-\seealso{}
-\examples{}
+
 \keyword{misc}
