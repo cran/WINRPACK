@@ -76,7 +76,7 @@ First read in the pickfile:
 library(WINRPACK)
 
 ##  winpick = "./PICK/060413.021851.231"
-winpick = "060413.021851.231"
+winpick = "970723.235151.840"
 
 zip = get1WINPICK(winpick)
 

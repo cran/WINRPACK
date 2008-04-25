@@ -12,6 +12,7 @@ get1WINPICK(fn)
 }
 
 \value{
+  List:
   \item{PF}{original pick file}
   \item{AC}{event card (a-card)}
   \item{LOC}{location}

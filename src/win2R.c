@@ -5,6 +5,14 @@
 /* modified by Ueda 2005.3.8 */
 /* adopted to little endian processors by Ueda 2005.5.13 */
 /* modified by Ueda 2005.7.22 */
+
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+
+
 #include	<stdio.h>
 #include	<signal.h>
 #include        <math.h>
@@ -14,11 +22,10 @@
 #include <ctype.h>
 
  
-#ifdef Win32
+#ifdef WIN32
 #include <winsock2.h>
 #include <io.h>
 #else
-#include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #endif
