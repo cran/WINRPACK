@@ -33,7 +33,7 @@ int time1[6];
 
 
 
-int getline(FILE *input, char s[], int lim);
+int jgetline(FILE *input, char s[], int lim);
 
 char  **alloc_cmat(long row_first, long row_last, long col_first,
                    long col_last);
@@ -138,7 +138,7 @@ char winlist[1000];
 	  
 	  kount = 0;
 	  
-	  while( (i = getline(f_chan, line, 1000)) != 0)
+	  while( (i = jgetline(f_chan, line, 1000)) != 0)
 	    {
 	      kount++;
 	    } 

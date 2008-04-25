@@ -112,7 +112,7 @@ void adj_time(int *tm);
 
 
 /************************************************************/
-/* FUNC DEF */ int getline(FILE *input, char s[], int lim)
+/* FUNC DEF */ int jgetline(FILE *input, char s[], int lim)
   {
   int c = 0, i;
 
@@ -172,7 +172,7 @@ void adj_time(int *tm);
   
   
   k = 0;
-  while( (i = getline(f_chan, line, 1000)) > 0 )
+  while( (i = jgetline(f_chan, line, 1000)) > 0 )
     {
       
       /* fprintf(stderr,"%s", line);  */
@@ -214,7 +214,7 @@ void adj_time(int *tm);
 
      for(k=0; k< kount; k++)
      {
-	if( (i = getline(f_chan, line, 1000))<1)
+	if( (i = jgetline(f_chan, line, 1000))<1)
 	{
 
 	   fprintf(stderr,"ERROR: %s", line);
