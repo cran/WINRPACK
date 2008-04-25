@@ -12,7 +12,7 @@
   \tabular{ll}{
     Package: \tab WINRPACK\cr
     Type: \tab Package\cr
-    Version: \tab 1.0-8\cr
+    Version: \tab 1.0-9\cr
     Date: \tab 2008-04-25\cr
     License: \tab GPL\cr
   }
