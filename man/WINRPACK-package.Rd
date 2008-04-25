@@ -12,7 +12,7 @@
   \tabular{ll}{
     Package: \tab WINRPACK\cr
     Type: \tab Package\cr
-    Version: \tab 1.0-7\cr
+    Version: \tab 1.0-8\cr
     Date: \tab 2008-04-25\cr
     License: \tab GPL\cr
   }
@@ -22,15 +22,16 @@
 
 \note{
 
-\item{get1WINPICK}{Read one WIN pickfile}
-\item{readwinch}{Read WIN channel file}
-\item{XWINdataASK}{Extract win format to ASCII}
-\item{XWINdata}{Extract WIN format}
-\item{getjul}{Get Julian day}
-\item{myscan1}{Scan a character string}
-\item{tojul}{Convert to Julian Day. Used for calculations.}
-
+  \describe{
+    \item{get1WINPICK}{Read one WIN pickfile}
+    \item{readwinch}{Read WIN channel file}
+    \item{XWINdataASK}{Extract win format to ASCII}
+    \item{XWINdata}{Extract WIN format}
+    \item{getjul}{Get Julian day}
+    \item{myscan1}{Scan a character string}
+    \item{tojul}{Convert to Julian Day. Used for calculations.}
   }
+}
 
 \author{
   Jonathan M. Lees<jonathan.lees\@unc.edu>
